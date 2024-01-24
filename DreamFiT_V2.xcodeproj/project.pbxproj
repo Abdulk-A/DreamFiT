@@ -17,6 +17,7 @@
 		B81130BA2B61AEAB00C99FC2 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81130B92B61AEAB00C99FC2 /* APIService.swift */; };
 		B81130BE2B61AEB300C99FC2 /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81130BC2B61AEB300C99FC2 /* Exercise.swift */; };
 		B81130BF2B61AEB300C99FC2 /* MuscleGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81130BD2B61AEB300C99FC2 /* MuscleGroup.swift */; };
+		B81130C12B61BBDE00C99FC2 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = B81130C02B61BBDE00C99FC2 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		B81130B92B61AEAB00C99FC2 /* APIService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
 		B81130BC2B61AEB300C99FC2 /* Exercise.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Exercise.swift; sourceTree = "<group>"; };
 		B81130BD2B61AEB300C99FC2 /* MuscleGroup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MuscleGroup.swift; sourceTree = "<group>"; };
+		B81130C02B61BBDE00C99FC2 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +49,7 @@
 		B81130952B61AE8800C99FC2 = {
 			isa = PBXGroup;
 			children = (
+				B81130C02B61BBDE00C99FC2 /* README.md */,
 				B81130A02B61AE8800C99FC2 /* DreamFiT_V2 */,
 				B811309F2B61AE8800C99FC2 /* Products */,
 			);
@@ -167,6 +170,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B81130C12B61BBDE00C99FC2 /* README.md in Resources */,
 				B81130A92B61AE8A00C99FC2 /* Preview Assets.xcassets in Resources */,
 				B81130A62B61AE8A00C99FC2 /* Assets.xcassets in Resources */,
 			);
