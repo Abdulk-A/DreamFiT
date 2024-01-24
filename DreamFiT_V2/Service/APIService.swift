@@ -33,7 +33,10 @@ class APIService {
         request.httpMethod = "GET"
         
         //key no longer exists :)
-        request.setValue("/ZcT/c3EVP+UET3O7G9S6g==MA12LG6NnqCg7w6k", forHTTPHeaderField: "X-Api-Key")
+        //updata your key here
+        let myAPIKEY: String = "/ZcT/c3EVP+UET3O7G9S6g==MA12LG6NnqCg7w6k"
+        
+        request.setValue(myAPIKEY, forHTTPHeaderField: "X-Api-Key")
         
         do {
             let (data, _) = try await URLSession.shared.data(for: request)
