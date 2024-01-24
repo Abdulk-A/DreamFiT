@@ -8,17 +8,29 @@
 
 /* Begin PBXBuildFile section */
 		B81130A22B61AE8800C99FC2 /* DreamFiT_V2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81130A12B61AE8800C99FC2 /* DreamFiT_V2App.swift */; };
-		B81130A42B61AE8800C99FC2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81130A32B61AE8800C99FC2 /* ContentView.swift */; };
 		B81130A62B61AE8A00C99FC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B81130A52B61AE8A00C99FC2 /* Assets.xcassets */; };
 		B81130A92B61AE8A00C99FC2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B81130A82B61AE8A00C99FC2 /* Preview Assets.xcassets */; };
+		B81130B42B61AEA200C99FC2 /* MusclePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81130B02B61AEA200C99FC2 /* MusclePicker.swift */; };
+		B81130B52B61AEA200C99FC2 /* ExerciseDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81130B12B61AEA200C99FC2 /* ExerciseDetail.swift */; };
+		B81130B62B61AEA200C99FC2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81130B22B61AEA200C99FC2 /* ContentView.swift */; };
+		B81130B72B61AEA200C99FC2 /* DifficultyPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81130B32B61AEA200C99FC2 /* DifficultyPicker.swift */; };
+		B81130BA2B61AEAB00C99FC2 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81130B92B61AEAB00C99FC2 /* APIService.swift */; };
+		B81130BE2B61AEB300C99FC2 /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81130BC2B61AEB300C99FC2 /* Exercise.swift */; };
+		B81130BF2B61AEB300C99FC2 /* MuscleGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81130BD2B61AEB300C99FC2 /* MuscleGroup.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B811309E2B61AE8800C99FC2 /* DreamFiT_V2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DreamFiT_V2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B81130A12B61AE8800C99FC2 /* DreamFiT_V2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DreamFiT_V2App.swift; sourceTree = "<group>"; };
-		B81130A32B61AE8800C99FC2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B81130A52B61AE8A00C99FC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B81130A82B61AE8A00C99FC2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B81130B02B61AEA200C99FC2 /* MusclePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusclePicker.swift; sourceTree = "<group>"; };
+		B81130B12B61AEA200C99FC2 /* ExerciseDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExerciseDetail.swift; sourceTree = "<group>"; };
+		B81130B22B61AEA200C99FC2 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B81130B32B61AEA200C99FC2 /* DifficultyPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DifficultyPicker.swift; sourceTree = "<group>"; };
+		B81130B92B61AEAB00C99FC2 /* APIService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		B81130BC2B61AEB300C99FC2 /* Exercise.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Exercise.swift; sourceTree = "<group>"; };
+		B81130BD2B61AEB300C99FC2 /* MuscleGroup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MuscleGroup.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +64,9 @@
 			isa = PBXGroup;
 			children = (
 				B81130A12B61AE8800C99FC2 /* DreamFiT_V2App.swift */,
-				B81130A32B61AE8800C99FC2 /* ContentView.swift */,
+				B81130BB2B61AEB300C99FC2 /* Model */,
+				B81130B82B61AEAB00C99FC2 /* Service */,
+				B81130AF2B61AEA200C99FC2 /* Views */,
 				B81130A52B61AE8A00C99FC2 /* Assets.xcassets */,
 				B81130A72B61AE8A00C99FC2 /* Preview Content */,
 			);
@@ -65,6 +79,34 @@
 				B81130A82B61AE8A00C99FC2 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B81130AF2B61AEA200C99FC2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B81130B22B61AEA200C99FC2 /* ContentView.swift */,
+				B81130B32B61AEA200C99FC2 /* DifficultyPicker.swift */,
+				B81130B12B61AEA200C99FC2 /* ExerciseDetail.swift */,
+				B81130B02B61AEA200C99FC2 /* MusclePicker.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B81130B82B61AEAB00C99FC2 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				B81130B92B61AEAB00C99FC2 /* APIService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		B81130BB2B61AEB300C99FC2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B81130BC2B61AEB300C99FC2 /* Exercise.swift */,
+				B81130BD2B61AEB300C99FC2 /* MuscleGroup.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +179,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B81130A42B61AE8800C99FC2 /* ContentView.swift in Sources */,
+				B81130BE2B61AEB300C99FC2 /* Exercise.swift in Sources */,
+				B81130BA2B61AEAB00C99FC2 /* APIService.swift in Sources */,
+				B81130B62B61AEA200C99FC2 /* ContentView.swift in Sources */,
 				B81130A22B61AE8800C99FC2 /* DreamFiT_V2App.swift in Sources */,
+				B81130B52B61AEA200C99FC2 /* ExerciseDetail.swift in Sources */,
+				B81130B72B61AEA200C99FC2 /* DifficultyPicker.swift in Sources */,
+				B81130B42B61AEA200C99FC2 /* MusclePicker.swift in Sources */,
+				B81130BF2B61AEB300C99FC2 /* MuscleGroup.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
